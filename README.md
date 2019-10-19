@@ -1,29 +1,8 @@
-# manifest
-Manifesto?
+# Manifesto Co-de-sign
 
-## O que
-Comunidade aberta com foco crescimento como desenvolvedor de inferface.
-O valor maior é ter interesse. Não saber fazer. Juntos aprenderemos tudo que quisermos.
+Uma comunidade/um rolê/um movimento que se organiza de forma anárquica/assíncrona/remota/online/antifascista/pós-gênero/coletivista/democrática/transparente para revolucionar/destruir/doutrinar/compartilhar interfaces.
 
-## Por que/Pra que
-Fomentar (?)
-
-Qual efeito nós esperamos gerar
-Qual transformação queremos promover
-
-troque ideia com quem sabe, quem nao sabe vem aprender
-
-## Pra quem
-Front Enders
-
-## Como
-Envetos, troca de conhecimentos, projetos colaborativos
-
---
-
-Rolê de desenvolvedores de interface que querem revolucionar o cenário do front end em Brasília.
-
-"É mais importante fazer que saber. E é muito importante saber"
-"Você consegue obter o saber fazendo, não o contrário"
-
-"Quero ter com quem trocar ideia de front, com quem crescer junto na área"
+- Não temos fins lucrativo
+- Não cobramos nada de quem participa
+- Tudo o que for produzido pelo Co-de-sign é livre para uso, reprodução e modificação
+- Não toleramos ações que discriminem pessoas por aspectos físicos, sociais ou biológicos

@@ -31,6 +31,7 @@ em.word {
   color: #fff;
   margin-left: 0.1em;
   margin-right: 0.1em;
+  cursor: pointer;
 }
 
 em.word:before {

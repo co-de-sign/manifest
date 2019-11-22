@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Manifesto Co-de-sign
 
 Uma comunidade/um rolê/um movimento que se organiza de forma anárquica/assíncrona/remota/online/antifascista/pós-gênero/coletivista/democrática/transparente para revolucionar/destruir/doutrinar/compartilhar interfaces.

@@ -49,38 +49,18 @@ function setColor(id) {
   id.style.setProperty('--color', randomize(colors));
 }
 
-function setWhat() {
-  const word = randomize(what);
-  setColor(whatId);
-
-  whatId.innerHTML = word;
+function createListener(arr, element) {
+  return function() {
+    const item = randomize(arr)
+    element.textContent = item
+    setColor(element)
+  }
 }
 
-function setHow() {
-  const word = randomize(how);
-  setColor(howId);
+whatId.addEventListener('click', createListener(what, whatId))
 
-  howId.innerHTML = word;
-}
+howId.addEventListener('click', createListener(how, howId))
 
-function setGoal() {
-  const word = randomize(goal);
-  setColor(goalId)
+goalId.addEventListener('click', createListener(goal, goalId))
 
-  goalId.innerHTML = word;
-}
-
-whatId.addEventListener('click', function() {
-  setWhat();
-  setColor(whatId);
-}, false)
-
-howId.addEventListener('click', function() {
-  setHow();
-}, false)
-
-goalId.addEventListener('click', function() {
-  setGoal();
-}, false)
-
-window.onload = () => setWhat(); setHow(); setGoal();
+window.onload = () => whatId.click(); howId.click(); goalId.click();

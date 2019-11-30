@@ -50,11 +50,13 @@ em.word:before {
 nav.links {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 nav.links > a {
   color: #000;
   font-size: calc(8px + 1vh);
+  padding-left: 8px;
 }
 
 nav.links > a:not(last-child) {
@@ -63,4 +65,29 @@ nav.links > a:not(last-child) {
 
 nav.links > a:hover {
   text-decoration: none;
+}
+
+nav.links > div.nav-item > a {
+  color: #000;
+  font-size: calc(8px + 1vh);
+  padding-left: 8px;
+}
+
+nav.links > div.nav-item > a:not(last-child) {
+  margin-bottom: 2vh;
+}
+
+nav.links > div.nav-item > a:hover {
+  text-decoration: none;
+}
+
+nav.links > div.nav-item > img.img-content {
+  width: 24px;
+  height: 24px;
+}
+
+nav.links > div.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }

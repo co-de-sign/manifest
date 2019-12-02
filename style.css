@@ -82,8 +82,8 @@ nav.links > div.nav-item > a:hover {
 }
 
 nav.links > div.nav-item > img.img-content {
-  width: 24px;
-  height: 24px;
+  width: calc(8px + 2vh);;
+  height: calc(8px + 2vh);;
 }
 
 nav.links > div.nav-item {

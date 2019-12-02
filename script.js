@@ -43,7 +43,7 @@ function randomize(arr) {
 }
 
 function setColor(id) {
-  id.style.setProperty('--color', randomize(colors));  
+  id.style.backgroundColor = randomize(colors);
 }
 
 function populate(element) {

@@ -43,19 +43,19 @@ function randomize(arr) {
 }
 
 function setColor(id) {
-  id.style.setProperty('--color', randomize(colors));
+  id.style.setProperty('--color', randomize(colors));  
+}
+
+function populate(element) {
+  setColor(element);  
+  element.innerHTML = randomize(sources[element.id]);
 }
 
 function setChange() {
   for (var i = 0; i < elementWord.length; i++) {
-    elementWord[i].addEventListener('click', function () {
-      setColor(this);
-
-      const word = randomize(sources[this.id]);
-      this.innerHTML = word;
-    }, false);
-
-    elementWord[i].click();
+    const currentElement = elementWord[i]
+    populate(currentElement);
+    elementWord[i].addEventListener('click', () => populate(currentElement), false);
   }
 }
 

@@ -50,8 +50,10 @@ em.word:before {
 
 nav.links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
 }
+
 
 nav.links > a {
   color: #000;
@@ -59,9 +61,46 @@ nav.links > a {
 }
 
 nav.links > a:not(last-child) {
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 nav.links > a:hover {
   text-decoration: none;
 }
+
+nav.links > i:not(last-child) {
+  margin-bottom: 1vh;
+}
+
+nav.links > .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+nav.links > .icons > i:not(last-child) {
+  margin-bottom: 1vh;
+}
+
+nav.links > div.links-content > a {
+  color: #000;
+  font-size: calc(8px + 1vh);
+}
+
+nav.links > div.links-content > a:not(last-child) {
+  margin-bottom: 1.5vh;
+}
+
+nav.links > div.links-content > a:hover {
+  text-decoration: none;
+}
+
+nav.links > div.links-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1.5vw;
+}
+
+
